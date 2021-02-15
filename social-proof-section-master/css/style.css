@@ -89,6 +89,7 @@ body{
 
 .stars > div{
     background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
     width: 700px;
@@ -124,7 +125,7 @@ body{
 
 @media screen and (max-width:1440px){
     body {
-        background-size: 350px, 790px;
+        background-size: 460px, 800px;
     }
 
     #grid{
@@ -154,52 +155,126 @@ body{
         -ms-grid-column-align: center;
         
             justify-self: center;
-        -webkit-box-pack: left;
-            -ms-flex-pack: left;
-                justify-content: left;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-top: 20px;
+        margin-left: 120px;
         
     }
 
+    .info > h1{
+        font-size: 45px;
+    }
+
+    .info > p{
+        font-size: 15px;
+    }
+
     .stars > div{
-        background-color: hsl(300, 24%, 96%);
-        border-radius: 5px;
+        
+        
         font-size: 12px;
-        text-align: right;
+        text-align: center;
         padding: 10px;
-        width: 300px;
+        width: 350px;
         height: 30px;
         margin-top: 30px;
         margin-bottom: -15px;
         
     }
-    /* Here */
+    
     .stars > .star-1{
-        background-image: url(/images/icon-star.svg),
-        url(/images/icon-star.svg),
-        url(/images/icon-star.svg),
-        url(/images/icon-star.svg),
-        url(/images/icon-star.svg);
+        background-image: url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg");
         
-        background-repeat: no-repeat,
-        no-repeat,
-        no-repeat,
-        no-repeat,
-        no-repeat;
-        /*display: flex;
-        flex-direction: row;
-        */
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 10px, 30px, 50px, 70px, 90px;
         margin-left: 300px;
+        
+        
     }
 
     .stars > .star-2{
+        background-image: url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg");
+        
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 10px, 30px, 50px, 70px, 90px;
         margin-left: 340px;
     }
 
     .stars > .star-3{
+        background-image: url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg"),
+                        url("/images/icon-star.svg");
+        
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 10px, 30px, 50px, 70px, 90px;
         margin-left: 380px;
     }
 
+    .stars > .star-1 > p{
+        margin-left: 45px;
+    }
+
+    .stars > .star-2 > p{
+        margin-left: 70px;
+    }
+
+    .stars > .star-3 > p{
+        margin-left: 50px;
+    }
+
+    .reviews{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-grid-column-align: center;
+            justify-self: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-left: 940px;
+        width: 1400px;
+    }
+    
+    .reviews > .review-1{
+        padding-left: 30px;
+        margin-top: -10px;
+        width: 400px;
+        margin-bottom: 50px;
+        
+    }
+
+    .reviews > .review-2{
+        width: 400px;
+        margin-top: -1px;
+        margin-bottom: 40px;
+        padding-left: 30px;
+        margin-left: -9px;
+    }
+
+    .reviews > .review-3{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: -8px;
+        padding-left: 30px;
+    }
+
+    .attribution{margin-left: 40px; margin-top: -50px;font-size: 12px;}
 }
 
 @media screen and (max-width:375px){
