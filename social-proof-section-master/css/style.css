@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-position: left top, right bottom;
-    background-size: 650px, 1250px;
+    background-size: 650px, 1450px;
 }
 
 #grid{
@@ -121,7 +121,7 @@ body{
     
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 40px, 60px, 80px, 100px, 120px;
-    margin-left: -790px;
+    margin-left: -950px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -135,7 +135,7 @@ body{
     
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 40px, 60px, 80px, 100px, 120px;
-    margin-left: -740px;
+    margin-left: -900px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -149,7 +149,7 @@ body{
     
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 40px, 60px, 80px, 100px, 120px;
-    margin-left: -690px;
+    margin-left: -850px;
     border-radius: 10px;
 }
 
